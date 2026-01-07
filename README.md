@@ -1,8 +1,8 @@
-# AI Powered Loan Eligibility System
+# AI-Powered Loan Eligibility System
 
-## Hasini Dandu Infosys springboard virtual internship 6.0
+## Hasini Dandu - Infosys Springboard Virtual Internship 6.0
 
-This project contains a comprehensive banking system comprising a **Secure Identity Hub** frontend and a **Loan Approval Prediction** backend.
+This project includes a comprehensive banking system featuring a **Secure Identity Hub** frontend and a **Loan Approval Prediction** backend.
 
 ## Project Structure
 
@@ -19,10 +19,10 @@ This project contains a comprehensive banking system comprising a **Secure Ident
 ## Setup Instructions
 
 ### 1. Database Setup
-1.  Ensure PostgreSQL is running.
-2.  Create a database named `loan_app_db`.
-3.  Configure your connection details in a `.env` file in the root directory.
-    > **Note**: Use the `DATABASE_URL` format: `postgresql+asyncpg://[user]:[password]@localhost/loan_app_db`
+1. Ensure PostgreSQL is running.
+2. Create a database named `loan_app_db`.
+3. Configure your connection details in a `.env` file in the root directory.
+   > **Note**: Use the `DATABASE_URL` format: `postgresql+asyncpg://[user]:[password]@localhost/loan_app_db`
 
 ### 2. Backend Setup
 Navigate to the root directory and install Python dependencies:
@@ -46,13 +46,13 @@ uvicorn backend.main:app --reload
 The API will be available at `http://localhost:8000`.
 
 ### 3. Frontend Setup
-Open a new terminal, navigate to the frontend directory:
+Open a new terminal and navigate to the frontend directory:
 
 ```bash
 cd frontend
 ```
 
-Install dependencies:
+Install the required dependencies:
 
 ```bash
 npm install
@@ -67,10 +67,10 @@ npm run dev
 The frontend will be available at `http://localhost:5173`.
 
 ## Features
-- **User Authentication**: Secure signup and login with JWT tokens
+- **User Authentication**: Secure sign-up and login with JWT tokens
 - **AI-Powered Loan Prediction**: Machine learning-based loan eligibility assessment with SHAP explanations
 - **Interactive Dashboard**: Real-time loan status, credit score monitoring, and financial overview
-- **Loan Application**: Step-by-step loan application form with AI advisor
+- **Loan Application**: Step-by-step loan application form with AI advisor assistance
 - **PDF Report Generation**: Comprehensive RBI-compliant loan analysis reports
 - **QR Code Sharing**: Share and download reports on mobile devices
 - **Payment Gateway**: Mock payment integration (Card, UPI, Net Banking, Wallets)
@@ -83,19 +83,19 @@ The frontend will be available at `http://localhost:5173`.
 - Real-time credit score monitoring (752/900)
 - Active loan tracking with outstanding balance
 - AI-powered loan eligibility predictions (₹8,00,000 pre-approved)
-- Alerts & notifications center
+- Alerts and notifications center
 - AI Credit Advisor chatbot
 
 ### 2. My Loans
 ![My Loans](screenshots/my-loans.png)
-- View all active loans with details
+- View all active loans with detailed information
 - Track loan ID, type, amount, and outstanding balance
 - Real-time status updates
 
 ### 3. Apply for Loan
 ![Apply for Loan](screenshots/loan-analysis.png)
 - AI-Powered Loan Eligibility Advisor
-- Personal & Employment information
+- Personal and employment information
 - Financial details with automatic calculations
 - Loan details configuration
 - Household information
@@ -114,24 +114,24 @@ The frontend will be available at `http://localhost:5173`.
 - Loan cost breakdown chart
 - Risk assessment radar chart
 - Next steps guidance (KYC, documentation)
-- PDF report download & QR code sharing
+- PDF report download and QR code sharing
 
 ### 5. Security & Profile Settings
 ![Profile Settings](screenshots/profile-settings.png)
 - Complete account information
 - Customer ID: LA20253834
 - Email verification status
-- Mobile number & address details
+- Mobile number and address details
 - KYC status tracking
 - Password management
 - Account role information
 
 ### 6. Mobile QR Code Download
 ![QR Code](screenshots/qr-code.png)
-- Scan to download report on mobile
-- Secure & encrypted link
-- 24-hour expiration for security
+- Scan to download the report on mobile
+- Secure and encrypted link
+- 24-hour expiration for security purposes
 - Works across all devices
 
 ## Deployment
-This repository is configured to include the `.env` file for ease of setup. **Do not use these credentials in a production environment.**
+This repository is configured with a `.env` file for convenient setup. **Do not use these credentials in a production environment.**
