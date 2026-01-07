@@ -1,4 +1,6 @@
-# Secure Identity Hub & Loan Approval System
+# AI Powered Loan Eligibility System
+
+## Dandu Hasini Infosys springboard virtual internship 6.0
 
 This project contains a comprehensive banking system comprising a **Secure Identity Hub** frontend and a **Loan Approval Prediction** backend.
 
