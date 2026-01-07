@@ -1,5 +1,7 @@
 # AI-Powered Loan Eligibility Advisor
 
+## Hasini Dandu - Infosys Virtual Internship 6.0
+
 ## Overview
 
 Welcome to the AI-Powered Loan Eligibility Advisor—an intelligent system designed to streamline and automate the loan qualification process. This sophisticated application leverages cutting-edge machine learning algorithms to assess applicant financial profiles and determine lending eligibility with precision and consistency.
